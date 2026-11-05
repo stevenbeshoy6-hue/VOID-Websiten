@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VOID | Official Server</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080808;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 22px;
+  text-align: center;
+  border-bottom: 1px solid #292020;
+}
+
+.logo {
+  color: #b83240;
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: 7px;
+}
+
+.welcome {
+  text-align: center;
+  padding: 65px 15px 35px;
+}
+
+.welcome small {
+  color: #b83240;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+
+.welcome h1 {
+  font-size: 65px;
+  margin: 15px 0;
+  color: #c03948;
+  text-shadow: 0 0 25px #641923;
+}
+
+.welcome p {
+  color: #aaa;
+  font-size: 17px;
+  line-height: 2;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px 15px 65px;
+}
+
+.server-btn {
+  width: 230px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #171010;
+  border: 1px solid #87303a;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.server-btn:hover {
+  background: #872b37;
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #631c28;
+}
+
+.server-btn span {
+  display: block;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 9px;
+}
+
+.rules {
+  padding: 45px 20px;
+  max-width: 850px;
+  margin: auto;
+}
+
+.rules h2 {
+  color: #c03948;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.rule {
+  background: #131313;
+  border: 1px solid #302020;
+  border-right: 4px solid #a83240;
+  padding: 18px;
+  border-radius: 9px;
+  margin-bottom: 13px;
+  color: #ddd;
+  line-height: 1.8;
+}
+
+.rule b {
+  color: #d04452;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #777;
+  border-top: 1px solid #292020;
+  margin-top: 40px;
+}
+
+footer b {
+  color: #c03948;
+}
+
+@media(max-width: 500px) {
+  .welcome h1 {
+    font-size: 48px;
+  }
+
+  .server-btn {
+    width: 90%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">VOID</div>
+</header>
+
+<section class="welcome">
+  <small>WELCOME TO</small>
+  <h1>VOID</h1>
+  <p>
+    VOID ترحب بكم ❤️
+    <br>
+    Welcome to our community
+  </p>
+</section>
+
+<section class="buttons">
+
+  <a class="server-btn"
+     href="https://discord.gg/vDuANC6Wq"
+     target="_blank">
+    🔴 VOID RP
+    <span>Join RP Community</span>
+  </a>
+
+  <a class="server-btn"
+     href="https://discord.gg/fvVPqwrx"
+     target="_blank">
+    ⛏️ VOID Minecraft
+    <span>Join Minecraft Community</span>
+  </a>
+
+</section>
+
+<section class="rules">
+
+  <h2>SERVER RULES</h2>
+
+  <div class="rule">
+    <b>01 - الاحترام</b><br>
+    احترام جميع الأعضاء والإدارة.
+  </div>
+
+  <div class="rule">
+    <b>02 - ممنوع النصب</b><br>
+    يمنع الاحتيال أو سرقة ممتلكات الأعضاء.
+  </div>
+
+  <div class="rule">
+    <b>03 - ممنوع السب</b><br>
+    يمنع الشتم والإهانة والتنمر.
+  </div>
+
+  <div class="rule">
+    <b>04 - ممنوع التخريب</b><br>
+    يمنع تخريب ممتلكات السيرفر أو اللاعبين.
+  </div>
+
+  <div class="rule">
+    <b>05 - ممنوع السبام</b><br>
+    يمنع تكرار الرسائل وإزعاج الأعضاء.
+  </div>
+
+  <div class="rule">
+    <b>06 - ممنوع الغش</b><br>
+    يمنع استخدام الهاكات أو استغلال الثغرات.
+  </div>
+
+  <div class="rule">
+    <b>07 - احترام الإدارة</b><br>
+    يجب الالتزام بتعليمات الإدارة.
+  </div>
+
+</section>
+
+<footer>
+  © 2026 <b>VOID</b> - All Rights Reserved
+</footer>
+
+</body>
+</html>
